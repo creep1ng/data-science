@@ -5,7 +5,7 @@ scipy==1.11.1
 matplotlib==3.7.2
 seaborn==0.12.2
 plotly==5.15.0
-kaggle==1.5.12
+kagglehub==1.5.12
 
 # Machine learning
 scikit-learn==1.3.0
