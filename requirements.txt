@@ -1,3 +1,7 @@
+# This requirements file doesn't pin versions to allow for flexibility in updates and new packages included.
+# It is recommended to rebuild the environment after specifying a new requirement, in order to leave pip to resolve the best versions.
+
+
 # Core data science packages
 numpy
 pandas
@@ -12,13 +16,16 @@ lightgbm
 catboost
 
 # Deep learning
-tensorflow
+tensorflow[and-cuda]
 torch
 torchvision
 
 # Jupyter environment
 jupyter
 jupyterlab
+ipykernel
+ipython
+notebook
 ipywidgets
 notebook
 
